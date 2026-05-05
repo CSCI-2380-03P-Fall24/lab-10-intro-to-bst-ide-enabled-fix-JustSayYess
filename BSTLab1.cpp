@@ -103,7 +103,7 @@ int countLeaves(Node* root) {
 int treeHeight(Node* root) {
 	// base case
 	if(root == nullptr){
-		return 0;
+		return -1;
 	}
 
 	int leftHeight = treeHeight(root->left);
